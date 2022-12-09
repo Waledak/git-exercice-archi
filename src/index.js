@@ -1,4 +1,5 @@
 function addFactory(valueToAdd) {
+    console.log(valueToAdd)
     return function (value) {
         return valueToAdd + value;
     }
